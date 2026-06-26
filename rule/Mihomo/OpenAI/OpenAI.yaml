@@ -2,8 +2,8 @@
 # AUTHOR: DDcat2025
 # REPO: https://github.com/DDcat2025/openai-shadowrocket-rules
 # SOURCE: https://github.com/v2fly/domain-list-community
-# SOURCE-COMMIT: 42ca460bb0495eec5a704611d6bc6cff387257a5
-# TOTAL: 36
+# SOURCE-COMMIT: 2f294188c3e0e0db33c44d8376b8ac0fc305e956
+# TOTAL: 45
 payload:
   - DOMAIN-SUFFIX,chat.com
   - DOMAIN-SUFFIX,chatgpt.com
@@ -25,19 +25,28 @@ payload:
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
   - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN-KEYWORD,chatgpt-async-webps-prod-
+  - DOMAIN,humb.apple.com
   - DOMAIN,openai-api.arkoselabs.com
   - DOMAIN,static.cloudflareinsights.com
   - DOMAIN-SUFFIX,algolia.net
   - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,auth0.com
+  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,cloudflare.com
+  - DOMAIN-SUFFIX,datadoghq.com
   - DOMAIN-SUFFIX,events.statsigapi.net
   - DOMAIN-SUFFIX,featuregates.org
+  - DOMAIN-SUFFIX,imgix.net
   - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN-SUFFIX,launchdarkly.com
+  - DOMAIN-SUFFIX,openaimerge.com
   - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-SUFFIX,sendgrid.net
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,statsig.com
   - DOMAIN-SUFFIX,statsigapi.net
   - DOMAIN-SUFFIX,stripe.com
+  - DOMAIN-SUFFIX,workos.com
+  - DOMAIN-SUFFIX,workoscdn.com

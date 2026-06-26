@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 EXTRA_EXACT = {
-    "browser-intake-datadoghq.com",
+    "humb.apple.com",
     "openai-api.arkoselabs.com",
     "static.cloudflareinsights.com",
 }
@@ -15,17 +15,25 @@ EXTRA_SUFFIXES = {
     "algolia.net",
     "api.statsig.com",
     "auth0.com",
+    "browser-intake-datadoghq.com",
     "client-api.arkoselabs.com",
+    "cloudflare.com",
+    "datadoghq.com",
     "events.statsigapi.net",
     "featuregates.org",
+    "imgix.net",
     "intercom.io",
     "intercomcdn.com",
     "launchdarkly.com",
+    "openaimerge.com",
     "segment.io",
+    "sendgrid.net",
     "sentry.io",
     "statsig.com",
     "statsigapi.net",
     "stripe.com",
+    "workos.com",
+    "workoscdn.com",
 }
 
 
