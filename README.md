@@ -34,6 +34,14 @@ Codex 桌面版会使用 HTTPS 和 WebSocket 连接，例如 `wss://chatgpt.com/
 如果只开启系统 HTTP 代理但应用流量没有被 Shadowrocket 完整接管，建议开启 TUN/VPN
 或增强模式，并确保本规则位于 `GEOIP`、`FINAL` 和大范围 `DIRECT` 规则之前。
 
+### Codex 内置生图
+
+Codex Desktop 使用 ChatGPT 登录态调用内置图像生成服务，请求入口为
+`https://chatgpt.com/backend-api/codex/images/generations`。本规则通过
+`DOMAIN-SUFFIX,chatgpt.com` 覆盖请求通道，并通过
+`DOMAIN-SUFFIX,oaiusercontent.com` 覆盖常见的生成结果资源域名，因此无需为
+Image 2 单独添加模型域名。
+
 ## Mihomo / Clash Meta
 
 ```yaml
