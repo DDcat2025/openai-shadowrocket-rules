@@ -2,7 +2,7 @@
 # AUTHOR: DDcat2025
 # REPO: https://github.com/DDcat2025/openai-shadowrocket-rules
 # SOURCE: https://github.com/v2fly/domain-list-community
-# SOURCE-COMMIT: 5d939545c84e2a534f8e85ba6ffb2b51fa18fb76
+# SOURCE-COMMIT: 8dee9683b99554b777eecb54a894670af46db9b1
 # TOTAL: 23
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
