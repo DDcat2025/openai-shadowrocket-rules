@@ -2,7 +2,7 @@
 # AUTHOR: DDcat2025
 # REPO: https://github.com/DDcat2025/openai-shadowrocket-rules
 # SOURCE: https://github.com/v2fly/domain-list-community
-# SOURCE-COMMIT: bcea25493ed28c387660fe49ce1ceb242d2efca0
+# SOURCE-COMMIT: 63777333b7dd1ac57f790e466c0f6a647b9c7281
 # TOTAL: 22
 browser-intake-datadoghq.com
 chat.com
