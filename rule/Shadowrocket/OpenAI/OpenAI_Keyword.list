@@ -1,0 +1,7 @@
+# NAME: OpenAI
+# AUTHOR: DDcat2025
+# REPO: https://github.com/DDcat2025/openai-shadowrocket-rules
+# SOURCE: https://github.com/v2fly/domain-list-community
+# SOURCE-COMMIT: c6adacf29cc4fb05e04651fcf03e00989ef9f797
+# TOTAL: 1
+DOMAIN-KEYWORD,chatgpt-async-webps-prod-

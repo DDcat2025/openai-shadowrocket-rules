@@ -2,9 +2,9 @@
 # AUTHOR: DDcat2025
 # REPO: https://github.com/DDcat2025/openai-shadowrocket-rules
 # SOURCE: https://github.com/v2fly/domain-list-community
-# SOURCE-COMMIT: 63777333b7dd1ac57f790e466c0f6a647b9c7281
+# SOURCE-COMMIT: c6adacf29cc4fb05e04651fcf03e00989ef9f797
 # CORE: 23
-# TOTAL: 48
+# TOTAL: 71
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
@@ -28,15 +28,38 @@ DOMAIN,openaicom.imgix.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN-KEYWORD,chatgpt-async-webps-prod-
+DOMAIN,android.chat.openai.com
+DOMAIN,auth0.openai.com
+DOMAIN,cdn.openaimerge.com
+DOMAIN,cdn.workos.com
+DOMAIN,challenges.cloudflare.com
+DOMAIN,chat.openai.com
+DOMAIN,desktop.chat.openai.com
+DOMAIN,forwarder.workos.com
+DOMAIN,frontend-apps-multi-region.workos.com
 DOMAIN,humb.apple.com
+DOMAIN,images.workoscdn.com
+DOMAIN,ios.chat.openai.com
+DOMAIN,js.intercomcdn.com
+DOMAIN,js.stripe.com
+DOMAIN,o207216.ingest.sentry.io
 DOMAIN,openai-api.arkoselabs.com
+DOMAIN,register.appattest.apple.com
+DOMAIN,rum.browser-intake-datadoghq.com
+DOMAIN,setup.auth.openai.com
+DOMAIN,setup.workos.com
 DOMAIN,static.cloudflareinsights.com
+DOMAIN,tcr9i.chat.openai.com
+DOMAIN,workos.imgix.net
+DOMAIN,ws.chatgpt.com
 DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,api.statsig.com
+DOMAIN-SUFFIX,auth.openai.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,ct.sendgrid.net
 DOMAIN-SUFFIX,datadoghq.com
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org

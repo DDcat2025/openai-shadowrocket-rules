@@ -1,0 +1,36 @@
+# Official network dependencies, checked 2026-10-12.
+# Source: https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps
+# Keep full: entries exact; do not expand shared providers to parent domains.
+suffix:auth.openai.com
+suffix:chatgpt.com
+suffix:ct.sendgrid.net
+suffix:intercom.io
+suffix:intercomcdn.com
+suffix:oaistatic.com
+suffix:oaiusercontent.com
+suffix:openai.com
+suffix:oaistatsig.com
+full:android.chat.openai.com
+full:auth0.openai.com
+full:cdn.openaimerge.com
+full:cdn.workos.com
+full:challenges.cloudflare.com
+full:chat.openai.com
+full:desktop.chat.openai.com
+full:forwarder.workos.com
+full:frontend-apps-multi-region.workos.com
+full:humb.apple.com
+full:images.workoscdn.com
+full:ios.chat.openai.com
+full:js.intercomcdn.com
+full:js.stripe.com
+full:o207216.ingest.sentry.io
+full:o33249.ingest.sentry.io
+full:rum.browser-intake-datadoghq.com
+full:setup.auth.openai.com
+full:setup.workos.com
+full:tcr9i.chat.openai.com
+full:workos.imgix.net
+full:ws.chatgpt.com
+# Device attestation troubleshooting endpoint.
+full:register.appattest.apple.com

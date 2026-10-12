@@ -15,8 +15,12 @@ jobs:
       - uses: actions/checkout@v5
       - name: Fetch upstream data
         run: git clone --depth 1 https://github.com/v2fly/domain-list-community.git upstream
+      - name: Fetch official voice IPs
+        run: curl --fail --silent --show-error --max-time 30 https://openai.com/chatgpt-voice.json -o data/chatgpt-voice.json
       - name: Generate rule files
         run: python3 scripts/build_rules.py upstream/data --repo upstream
+      - name: Validate rules
+        run: python3 scripts/check_rules.py
       - name: Commit updates
         run: |
           if git diff --quiet; then
