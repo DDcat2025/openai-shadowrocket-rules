@@ -2,8 +2,8 @@
 # AUTHOR: DDcat2025
 # REPO: https://github.com/DDcat2025/openai-shadowrocket-rules
 # SOURCE: https://github.com/v2fly/domain-list-community
-# SOURCE-COMMIT: 6ee52f2c36634aeabeb9c4ba486ca02cd84c3d4f
-# TOTAL: 50
+# SOURCE-COMMIT: 8f1acdf69923fde68e1cb6e8a58fb6e501fdaf2f
+# TOTAL: 51
 payload:
   - DOMAIN,android.chat.openai.com
   - DOMAIN,auth0.openai.com
@@ -22,6 +22,7 @@ payload:
   - DOMAIN,js.stripe.com
   - DOMAIN,o207216.ingest.sentry.io
   - DOMAIN,o33249.ingest.sentry.io
+  - DOMAIN,o33249.ingest.us.sentry.io
   - DOMAIN,openai.qualtrics.com
   - DOMAIN,openaiapi-site.azureedge.net
   - DOMAIN,openaiassets.blob.core.windows.net

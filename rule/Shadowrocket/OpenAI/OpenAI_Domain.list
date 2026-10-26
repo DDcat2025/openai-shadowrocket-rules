@@ -2,8 +2,8 @@
 # AUTHOR: DDcat2025
 # REPO: https://github.com/DDcat2025/openai-shadowrocket-rules
 # SOURCE: https://github.com/v2fly/domain-list-community
-# SOURCE-COMMIT: 6ee52f2c36634aeabeb9c4ba486ca02cd84c3d4f
-# TOTAL: 23
+# SOURCE-COMMIT: 8f1acdf69923fde68e1cb6e8a58fb6e501fdaf2f
+# TOTAL: 24
 .chat.com
 .chatgpt.com
 .chatgpt.livekit.cloud
@@ -20,6 +20,7 @@
 .turn.livekit.cloud
 browser-intake-datadoghq.com
 o33249.ingest.sentry.io
+o33249.ingest.us.sentry.io
 openai.qualtrics.com
 openaiapi-site.azureedge.net
 openaiassets.blob.core.windows.net
